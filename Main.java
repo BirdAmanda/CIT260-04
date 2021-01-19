@@ -44,6 +44,11 @@ public class Main {
 
 
         }
+        if (futureDay<0)
+
+    {
+        System.out.println("futureDay is invalid.  YOu must enter a positive number.");
+    }
         System.out.print("Goodbye ");
     }
 }
